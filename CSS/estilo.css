@@ -1,0 +1,139 @@
+html {
+	box-sizing: border-box;
+	font-size: 62.5%; /** Reset para REMS - 62.5% = 10px de 16px **/
+}
+body {
+	font-family: 'Lato', sans-serif;
+	line-height: 2rem;
+}
+
+/** Globales **/
+.contenedor {
+	max-width: 120rem;
+	margin: 0 auto 0 auto;
+}
+
+h1 {
+font-size: 3.8rem;
+padding-top: 11rem;
+}
+
+h2{
+font-size: 3.4rem;
+padding-bottom: 10rem;
+}
+
+h3{
+font-size: 3rem;
+}
+
+h4 {
+font-size: 2.5rem;
+}
+
+p {
+font-size: 3.5rem;
+}
+img {
+	max-width: 100%;
+}
+
+/* Utilidades */
+
+.section {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.fw-300 {
+	font-weight: 300;
+}
+.centrar-texto {
+	text-align: center;
+}
+.d-block {
+	display: block!important;
+}
+
+/* Header */
+
+.encabezado {
+	display: flex;
+	justify-content: space-between;
+}
+
+.banner {
+	background: white;
+	background-position: center center;
+	background-size: cover;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+}
+
+.resize {
+	width: 30rem;
+	height: 30rem;
+}
+
+/* Anuncio */
+.anuncio {
+	text-align: center;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+	color: white;
+	background-color: black;
+}
+
+.textofb {
+	text-align: center;
+	color: white;
+	padding-top: 60rem;
+	padding-bottom: 8rem;
+	background-image: url(../img/planta.svg);
+	background-size: cover;
+	background-position: center;
+}
+
+/* footer */
+.footer {
+	display: flex;
+	justify-content: space-between;
+	background-size: cover;
+}
+
+.footer p {
+	font-weight: 300;
+}
+
+/* Bottones */
+.boton {
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 5rem;
+	padding: 5rem 3rem;
+	display: inline-block;
+	text-align: center;
+}
+
+.boton-negro {
+	background-color: black;
+	width: 50%;
+}
+
+.contenedor {
+	width: 100%;
+	margin: 0 auto;
+}
+
+img {
+	max-width: 100%;
+}
+
+@media (min-width: 300px) {
+	body {
+		background-color: white;
+		font-size-adjust: 2rem;
+		width: 100%;
+	}
+}
